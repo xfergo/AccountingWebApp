@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
 import sqlite3
-from accounting_logic import (
+from services.accounting_logic import (
     issue_customer_invoice,
     receive_customer_payment,
     receive_vendor_bill,
