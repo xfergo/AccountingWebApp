@@ -1,0 +1,13 @@
+# Ignore local database
+accounting.db
+
+# Ignore Python cache directories and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments and git history
+.venv/
+venv/
+env/
+.git/
